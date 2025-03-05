@@ -59,7 +59,7 @@ async function handleLoginWithGoogle() {
         </div>
         <Input id="password" type="password" required v-model="formData.password" />
       </div>
-      <Button type="submit" class="w-full" @click="handleLoginWithEmail"> Login </Button>
+      <Button type="button" class="w-full" @click="handleLoginWithEmail"> Login </Button>
       <div
         class="relative text-center text-sm after:absolute after:inset-0 after:top-1/2 after:z-0 after:flex after:items-center after:border-t after:border-zinc-200 dark:after:border-zinc-800"
       >
